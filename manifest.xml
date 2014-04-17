@@ -15,7 +15,9 @@
 		<version>1.8</version>
 	</requires>
 	<requires>
-		<type>profile_manager</type>
+		<type>plugin</type>
+		<name>profile_manager</name>
 		<version>7.6.1</version>
 	</requires>
+	<activate_on_install>false</activate_on_install>
 </plugin_manifest>
