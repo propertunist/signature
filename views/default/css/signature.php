@@ -1,4 +1,5 @@
-.elgg-comment-signature{
- border: 1px solid #333;
- font-size:10px;
-}
+ <?php
+
+.elgg-signature{font-size:80%; border-top:1px solid #555; padding: 5px 0;}
+
+?>
