@@ -4,10 +4,8 @@
 	<author>Sathish kumar And Ura Soul</author>
 	<version>1.0</version>
 	<category>tools</category>
-	<description>
-		signature.
-	</description>
-	<website>https://www.webbehinds.com</website>
+	<description>adds a signature field to user tool settings page that appears at the bottom of comments.</description>
+	<website>https://www.webbehinds.com https://www.infiniteeureka.com</website>
 	<copyright>Copyright 2014 sathish kumar</copyright>
 	<license>GNU Public License version 2</license>
 	<requires>
