@@ -1,5 +1,4 @@
 <?php
-
 /*****
  * plugin hook to be run when the signature is changed via the tool settings page
  ******/
