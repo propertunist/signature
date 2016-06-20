@@ -9,3 +9,8 @@ Install instructions:
 - Activate
 =======
 - Activate
+
+changelog
+
+1.1: replaced tags in language file
+2.0: added compatibility for elgg 2.x

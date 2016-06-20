@@ -2,7 +2,7 @@
 /*****
  * plugin hook to be run when the signature is changed via the tool settings page
  ******/
- 
+
 function validate_signature($hook, $type, $value, $params)
 {
     $plugin = $params['plugin'];
@@ -28,10 +28,10 @@ function signature_init() {
 	//register hooks
 	elgg_register_plugin_hook_handler('usersetting', 'plugin', 'validate_signature'); // validate the input that is entered on the settings tool page
     //extend views
-	elgg_extend_view('css/elgg', 'css/signature'); // add css styling to the main elgg css file
-	elgg_extend_view('annotation/generic_comment','output/signature', 501); // place the signature view at the bottom of the generic comment view
+	elgg_extend_view('elgg.css', 'css/signature'); // add css styling to the main elgg css file
+	elgg_extend_view('object/comment','output/signature'); // place the signature view at the bottom of the generic comment view
+    elgg_extend_view('object/discussion_reply', 'output/signature');
+    elgg_extend_view('object/discussion', 'output/signature');
 }
 
 elgg_register_event_handler('init', 'system', 'signature_init');
-
-?>
